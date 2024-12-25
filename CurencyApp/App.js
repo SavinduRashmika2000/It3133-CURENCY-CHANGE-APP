@@ -12,7 +12,7 @@ export default function App() {
           <ScrollView>
             <View style={styles.container}>
               <Header />
-              <Home />
+             <Home/>
               <StatusBar style="auto" />
             </View>
           </ScrollView>
@@ -20,10 +20,11 @@ export default function App() {
     </PaperProvider>
   );
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#000',
     alignItems: 'center',
     justifyContent: 'center',
   },
