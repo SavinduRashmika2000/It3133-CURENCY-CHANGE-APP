@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <PaperProvider>
         <View style={styles.container}>
-            <Text variant="displayMedium" style={styles.header}>Currency Converter</Text>
+            <Text variant="displayMedium" style={styles.header}>LKR TO USD CONVERTER</Text>
             <Divider />
         </View>    
         </PaperProvider>
